@@ -7,4 +7,4 @@ Shared python utilities for Foxtrot Projects
 
 Displays a list of available colors for ANSI:
 
-`ftf-utilities`
+`ftf-utils`
