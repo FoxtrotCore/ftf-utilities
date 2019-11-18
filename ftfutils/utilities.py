@@ -1,5 +1,7 @@
-import json, color, mode
-from enum import Enum
+import json
+from color import *
+from cstring import *
+from mode import *
 
 def log(mode, message):
     if(isinstance(mode, Mode)):

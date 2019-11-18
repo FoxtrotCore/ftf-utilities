@@ -1,3 +1,5 @@
+from enum import Enum
+
 class Mode(Enum):
     INFO = 0
     DEBUG = 1

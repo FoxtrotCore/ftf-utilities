@@ -1,4 +1,4 @@
-import color
+from color import *
 
 class CString:
     def __init__(self, color, message):

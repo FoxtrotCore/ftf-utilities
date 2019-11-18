@@ -1,7 +1,11 @@
-import color, cstring
+from color import *
+from cstring import *
+from mode import *
+from utilities import log
+
 def main():
-    print("ANSI colors available:")
-    for color in Color:
-        if(not (color.name in {'HEAD', 'TAIL'})): print("\t" + CString(color, color.name))
+    log(Mode.INFO, "ANSI colors available:")
+    for c in Color:
+        if(not (c.name in {'HEAD', 'TAIL'})): print("\t" + CString(c, c.name))
 
 if __name__ == '__main__': main()
