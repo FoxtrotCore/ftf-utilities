@@ -1,7 +1,7 @@
-from color import *
-from cstring import *
-from mode import *
-from utilities import log
+from ftfutils.color import *
+from ftfutils.cstring import *
+from ftfutils.mode import *
+from ftfutils.utilities import log
 
 def main():
     log(Mode.INFO, "ANSI colors available:")

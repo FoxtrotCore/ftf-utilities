@@ -1,7 +1,7 @@
 import json
-from color import *
-from cstring import *
-from mode import *
+from ftfutils.color import *
+from ftfutils.cstring import *
+from ftfutils.mode import *
 
 def log(mode, message):
     if(isinstance(mode, Mode)):

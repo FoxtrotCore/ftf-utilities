@@ -1,4 +1,4 @@
-from color import *
+from ftfutils.color import *
 
 class CString:
     def __init__(self, color, message):
