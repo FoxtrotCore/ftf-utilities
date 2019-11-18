@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ftfutils",
-    version="2.0.0",
+    version="2.0.1",
     author="Foxtrot Fanatics",
     author_email="foxtrotfanatics@gmail.com",
     packages=['ftfutils'],
