@@ -1,3 +1,3 @@
-VERSION = "2.2.1"
+VERSION = "2.2.2"
 BRANCH = "master"
 from .utilities import *

@@ -1,4 +1,4 @@
-import json
+import json, os.path
 from .color import Color
 from .cstring import CString
 from .mode import Mode
@@ -24,7 +24,8 @@ def load_json(filename):
 
     Loads a JSON  file and returns it as a python dictionary
     """
-    file = open(file_path)
+    if(not os.path.exists(filename)): raise FileNotFoundError
+    file = open(filename)
     file_data = file.read()
     file.close()
     return json.loads(file_data)
