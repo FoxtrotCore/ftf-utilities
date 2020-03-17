@@ -1,14 +1,15 @@
-import setuptools
+from ftf_utilities import VERSION
+import ftf_utilities, setuptools
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ftfutils",
-    version="2.0.1",
+    name="ftf_utilities",
+    version=VERSION,
     author="Foxtrot Fanatics",
     author_email="foxtrotfanatics@gmail.com",
-    packages=['ftfutils'],
+    packages=['ftf_utilities'],
     scripts=[],
     url="https://github.com/FoxtrotCore/ftf-utilities",
     license="MIT",
