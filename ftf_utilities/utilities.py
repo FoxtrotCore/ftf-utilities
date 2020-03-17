@@ -1,7 +1,7 @@
 import json
-from ftfutils.color import Color
-from ftfutils.cstring import *
-from ftfutils.mode import Mode
+from .color import Color
+from .cstring import CString
+from .mode import Mode
 
 def log(mode, message):
     """

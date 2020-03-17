@@ -1,4 +1,4 @@
-from ftfutils.color import *
+from .color import *
 
 class CString:
     """
